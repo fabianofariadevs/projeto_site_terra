@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title> Parceiro TERRA Clube Sutentabilidade </title>
+<style>
+</style>
+    
+</head>
+<body style="background-color: rgb(211, 232, 225); font-size: 20px; ">
+  
+  <div class="container">
+    <div class='card'>
+      <h1>Login</h1>
+
+      <div class='label-float'>
+        <input type="text" id="usuario" placeholder="">
+        <label for="usuario">Usuário</label>
+      </div>
+
+      <div class='label-float'>
+        <input type="password" id="senha" placeholder="">
+        <label for="usuario">Senha</label>
+      </div>
+
+      <div class="justify-center">
+        <button>Entrar</button>
+      </div>
+
+      <div class="justify-center">
+        <hr>
+      </div>
+      <p>Não tem uma conta?
+      <a href="">Cadastre-se</a>
+      </p>
+    </div>
+  </div>
+
+  
+  <div class="w3-container" id="Fundo" name="Fundo">
+        <div id="Vermelho" name="Vermelho" class="w3-container w3-green w3-navbaa">
+            
+            <div class="w3-bar w3-black">
+                <a href="paginas/sobre.html" class="w3-bar-item w3-button">Sobre Nós</a>
+                <a href="paginas/parceiros.html" class="w3-bar-item w3-button">  Parceiros</a>
+                <a href="paginas/reciclagem.html" class="w3-bar-item w3-button">  Reciclagem Verde</a>
+                <a href="paginas/sust_social.html" class="w3-bar-item w3-button">  Sustentabilidade Social</a>
+              </div>
+</div>
+  </div>
+        
+        <div id="Bloco3" class="w3-container">
+            <h1 style="color:green; text-align: center; font-weight: bold;" class="w3-center">Parceiro TERRA Clube Sustentabilidade</h1>
+            <h3 style="color:green; text-align: center;" class="w3-center">Vamos ajudar o planeta!<br>Faça sua parte, compartilhe essa idéia!!</h3>
+
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="https://i.postimg.cc/VkYnDPQR/conceito-verde.jpg style=" style="width:100%">
+  <img class="mySlides" src="https://i.postimg.cc/7ZGwvfkY/Social-Green.gif" style="width:90%">
+  <img class="mySlides" src="https://i.postimg.cc/ryxfHT3X/mundo-recicl-5229221.jpg" style="width:90%">
+  <img class="mySlides" src="https://i.postimg.cc/pVmH5mmQ/olhos-da-terra-do-planeta-7011343.jpg" style="width:90%">
+  <button class="w3-button w3-green w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-green w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
+    
+    function plusDivs(n) {
+      showDivs(slideIndex += n);
+    }
+    
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      if (n > x.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = x.length}
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      x[slideIndex-1].style.display = "block";  
+    }
+    </script>
+
+
+<footer class="w3-center">
+    <p>Autores: Allan, Aline, Bruno, Eduardo e Fabiano</p>
+    <p><a href="mailto:brasilsustentavel.com.br">brasilsustentável@sust.gov.br</a></p>
+</footer>
+
+    
+</body>
+</html>
