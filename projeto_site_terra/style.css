@@ -17,6 +17,7 @@ text-align: right;
 #verde{
 padding-right: 5px;
 padding-top: 10px;
+background-image: linear-gradient(to right,rgba(56, 214, 64, 0.486), rgb(78, 153, 77), rgb(30, 94, 27), rgb(0, 0, 90))
 }
 #clube-terra{
 background: linear-gradient(
