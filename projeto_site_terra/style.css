@@ -1,20 +1,45 @@
-#usuario { 
-    font-size: 13px;
+body {  padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background-image: url("imagens/background.png");}
+#sub_bar {
+display: flex;
+justify-content: center;
+background-color: black;
+color: white;
 }
-#senha {
-    font-size: 13px;
+#cadastro{
+font-size: 14px;
 }
-p {
-    font-size:12px;position: relative;right: 10px;left: 1190px;}
-input {
-    position: relative;right: 10px;left: 850px;
+#registro{
+text-align: right;
 }
-label {
-    font-size: 13px;position:relative;right:10px;left: 850px;
+#verde{
+padding-right: 5px;
+padding-top: 10px;
 }
-verde {
-    position: relative;right: 20px;font-size: 10px;
+#clube-terra{
+background: linear-gradient(
+to bottom, yellow, yellowgreen,
+green, rgb(43, 17, 17));
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+text-align: center; 
+font-weight: bold;}
+#round{
+border-radius: 5px;
+height: 50px;
 }
-h4 { 
-    font-size:20px;position: relative;right: 10px;left: 850px;
+.fade {
+animation-name: fade;
+animation-duration: 0.8s;
+}
+
+@keyframes fade {
+from {opacity: .4} 
+to {opacity: 1}
+}
+#logo-clube{
+    max-width: 10%;
+    float: left;
 }
