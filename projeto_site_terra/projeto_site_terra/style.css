@@ -1,0 +1,46 @@
+body {  padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background-image: url("imagens/background.png");}
+#sub_bar {
+display: flex;
+justify-content: center;
+background-color: black;
+color: white;
+}
+#cadastro{
+font-size: 14px;
+}
+#registro{
+text-align: right;
+}
+#verde{
+padding-right: 5px;
+padding-top: 10px;
+background-image: linear-gradient(to right,rgba(56, 214, 64, 0.486), rgb(78, 153, 77), rgb(30, 94, 27), rgb(0, 0, 90))
+}
+#clube-terra{
+background: linear-gradient(
+to bottom, yellow, yellowgreen,
+green, rgb(43, 17, 17));
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+text-align: center; 
+font-weight: bold;}
+#round{
+border-radius: 5px;
+height: 50px;
+}
+.fade {
+animation-name: fade;
+animation-duration: 0.8s;
+}
+
+@keyframes fade {
+from {opacity: .4} 
+to {opacity: 1}
+}
+#logo-clube{
+    max-width: 10%;
+    float: left;
+}

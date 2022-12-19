@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>Sobre Nós</title>
+    <style>
+#sobre {
+        padding: 0px;
+        margin: 0px;
+}
+
+b {
+        color: green;
+        font-family: Arial, Helvetica, sans-serif;
+        }
+#planeta_agradece{ 
+        text-align: center;
+        font-size: 70px;  
+        color: green;}
+        
+#ajude_nos {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 82%;}
+#texto_principal{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    padding-top: 2%;
+    padding-left: 15%;
+    padding-right: 15%;
+    color: black;
+    padding-bottom: 0%;
+    line-height: 40px;
+}
+#verde{
+padding-left: 5px;
+padding-top: 10px;
+background-image: linear-gradient(to right,rgba(56, 214, 64, 0.486), rgb(78, 153, 77), rgb(30, 94, 27), rgb(0, 0, 31));
+border-radius: 15px;
+}
+#Vermelho{
+border-radius: 20px;
+}
+</style>                
+</head>
+<body id="sobre" style="background-color: rgb(251, 243, 235); font-size: 30px;">
+        <div class="w3-container" id="Fundo" name="Fundo">
+            <div id="Vermelho" name="Vermelho" class="w3-container w3-black w3-navbaa">
+                <div id="verde" class="w3-bar">
+                 <a href="../index.html"><img src="../imagens/Clube Terra (9).png" alt="Logo Clube Terra" style="max-width: 5%;"><a>Sobre nós</a>
+                  </div>
+    </div>
+    <h2 div id="texto_principal">
+        Nascemos com o sangue e fome de sustentabilidade,<br><b> Devido ao desperdício de alimentos </b> que temos no Brasil e a vontade de comer dos brasileiros, pensando...pensando?<br> Nasce então a <b>idéia</b> do <b>Parceiro TERRA Clube!</b>
+        <br>Com benefícios sustentáveis, para produtor e consumidor,
+        em <b> especial</b>, pessoas que pensam e querem ajudar ao planeta.
+       Pensando nas toneladas de alimentos desperdiçados e na fome que nosso país enfrenta todos os dias, 
+       O que antes se perdia e acabava no <b>lixo</b> agora tem solução! 
+       <br><b>Parceiro TERRA Clube!</b> Seu bolso e a fome agradeçem..</h2>
+       <br><h3 div id="planeta_agradece">O Planeta também!!!</h3>
+       <div class="w3-content w3-display-container">
+        <img class="mySlides" src="https://i.postimg.cc/tRP2Bp9B/2711439520-dia-mundial-da-alimentacao-1024x731.jpg" style="width:100%;">
+        <img class="mySlides" src="https://i.postimg.cc/6QJQLrcj/desperd1.jpg" style="width:100%; height: 580px;">      
+        <button class="w3-button w3-green w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="w3-button w3-green w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+      </div>
+      <h2 div id="texto_principal"><b>Nosso compromisso</b> principal paira sobre a diminuição em massa de todo e qualquer desperdício que podemos evitar seja beneficiando os <b>33,1 milhões
+         de brasileiros que sofrem com a fome</b> (Os dados são de estudo realizado pela Rede Brasileira de Pesquisa em Soberania e Segurança Alimentar e 
+         Nutricional <b>(Rede Penssan)</b>, com execução em campo do Instituto Vox Populi.) e ao mesmo tempo criando uma rede bem desenvolvida logicamente que 
+         poderá incluir toda a nação brasileira no <b>combate ao descarte arbitrário de alimentos ótimos para o consumo!</b> Venha fazer parte deste projeto de 
+         agora no presente e não continuemos errando e vivendo no passado.</h2>
+      <img div id="ajude_nos" src=https://i.postimg.cc/QdJSgbkS/faca-parte.png alt="ajude nos hoje a preservar o ambiente do amanhã">
+
+      
+      
+      <script>
+          var slideIndex = 1;
+          showDivs(slideIndex);
+          
+          function plusDivs(n) {
+            showDivs(slideIndex += n);
+          }
+          
+          function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            if (n > x.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = x.length}
+            for (i = 0; i < x.length; i++) {
+              x[i].style.display = "none";  
+            }
+            x[slideIndex-1].style.display = "block";  
+          }
+          </script>      
+</body>
+</html>
