@@ -1,5 +1,5 @@
 <p align="center">
-<img  src="./imagens/Cópia de olhos-da-terra-do-planeta-7011343.jpg" width="50%">
+<img  src="projeto_site_terra/imagens/Cópia de olhos-da-terra-do-planeta-7011343.jpg" width="50%">
 </p>
 <br>
 <h1 align="center">Meu Projeto Pessoal 100% voltado à Sustentabilidade, com Zero Desperdício e um olhar para ajudarmos o planeta TERRA.<br>Será desenvolvido em  HTML/CSS e JavaScript. </h1>
