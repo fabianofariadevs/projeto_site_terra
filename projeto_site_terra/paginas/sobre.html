@@ -45,6 +45,15 @@ border-radius: 15px;
 #Vermelho{
 border-radius: 20px;
 }
+.fade {
+animation-name: fade;
+animation-duration: 0.8s;
+}
+
+@keyframes fade {
+from {opacity: .4} 
+to {opacity: 1}
+}
 </style>                
 </head>
 <body id="sobre" style="background-color: rgb(251, 243, 235); font-size: 30px;">
@@ -63,18 +72,18 @@ border-radius: 20px;
        <br><b>Parceiro TERRA Clube!</b> Seu bolso e a fome agradeçem..</h2>
        <br><h3 div id="planeta_agradece">O Planeta também!!!</h3>
        <div class="w3-content w3-display-container">
-        <img class="mySlides" src="https://i.postimg.cc/tRP2Bp9B/2711439520-dia-mundial-da-alimentacao-1024x731.jpg" style="width:100%;">
-        <img class="mySlides" src="https://i.postimg.cc/6QJQLrcj/desperd1.jpg" style="width:100%; height: 580px;">      
-        <button class="w3-button w3-green w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-        <button class="w3-button w3-green w3-display-right" onclick="plusDivs(1)">&#10095;</button>
-      </div>
+        <img class="mySlides fade" src="../imagens/dia-mundial-da-alimentacao-1024x731.jpg" style="max-width: 100%; border-radius: 13px;">
+        <img class="mySlides fade" src="../imagens/desperd1 (1).jpeg" style="max-width: 100%;border-radius: 13px;">
+        <button id="round" class="w3-button w3-light-green w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+        <button id="round" class="w3-button w3-light-green w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+        </div>
       <h2 div id="texto_principal"><b>Nosso compromisso</b> principal paira sobre a diminuição em massa de todo e qualquer desperdício que podemos evitar seja beneficiando os <b>33,1 milhões
          de brasileiros que sofrem com a fome</b> (Os dados são de estudo realizado pela Rede Brasileira de Pesquisa em Soberania e Segurança Alimentar e 
          Nutricional <b>(Rede Penssan)</b>, com execução em campo do Instituto Vox Populi.) e ao mesmo tempo criando uma rede bem desenvolvida logicamente que 
          poderá incluir toda a nação brasileira no <b>combate ao descarte arbitrário de alimentos ótimos para o consumo!</b> Venha fazer parte deste projeto de 
          agora no presente e não continuemos errando e vivendo no passado.</h2>
-      <img div id="ajude_nos" src=https://i.postimg.cc/QdJSgbkS/faca-parte.png alt="ajude nos hoje a preservar o ambiente do amanhã">
-
+      <footer><img div id="ajude_nos" src=https://i.postimg.cc/QdJSgbkS/faca-parte.png alt="ajude nos hoje a preservar o ambiente do amanhã">
+</footer>
       
       
       <script>
